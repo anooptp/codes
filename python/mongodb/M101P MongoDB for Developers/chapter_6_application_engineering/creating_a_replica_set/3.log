@@ -1,0 +1,532 @@
+2014-05-24T14:51:58.728+0530 [initandlisten] MongoDB starting : pid=5468 port=27019 dbpath=\data\rs3 64-bit host=anoop
+2014-05-24T14:51:58.734+0530 [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2014-05-24T14:51:58.735+0530 [initandlisten] db version v2.6.0
+2014-05-24T14:51:58.735+0530 [initandlisten] git version: 1c1c76aeca21c5983dc178920f5052c298db616c
+2014-05-24T14:51:58.735+0530 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2014-05-24T14:51:58.736+0530 [initandlisten] allocator: system
+2014-05-24T14:51:58.736+0530 [initandlisten] options: { net: { port: 27019 }, replication: { oplogSizeMB: 64, replSet: "m101" }, storage: { dbPath: "\data\rs3", smallFiles: true }, systemLog: { destination: "file", path: "3.log" } }
+2014-05-24T14:51:58.805+0530 [initandlisten] journal dir=\data\rs3\journal
+2014-05-24T14:51:58.805+0530 [initandlisten] recover : no journal files present, no recovery needed
+2014-05-24T14:51:58.910+0530 [FileAllocator] allocating new datafile \data\rs3\local.ns, filling with zeroes...
+2014-05-24T14:51:58.910+0530 [FileAllocator] creating directory \data\rs3\_tmp
+2014-05-24T14:51:58.983+0530 [FileAllocator] done allocating datafile \data\rs3\local.ns, size: 16MB,  took 0.057 secs
+2014-05-24T14:51:58.990+0530 [FileAllocator] allocating new datafile \data\rs3\local.0, filling with zeroes...
+2014-05-24T14:51:59.048+0530 [FileAllocator] done allocating datafile \data\rs3\local.0, size: 16MB,  took 0.044 secs
+2014-05-24T14:51:59.055+0530 [initandlisten] build index on: local.startup_log properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.startup_log" }
+2014-05-24T14:51:59.055+0530 [initandlisten] 	 added index to empty collection
+2014-05-24T14:51:59.056+0530 [initandlisten] command local.$cmd command: create { create: "startup_log", size: 10485760, capped: true } ntoreturn:1 keyUpdates:0 numYields:0  reslen:37 147ms
+2014-05-24T14:51:59.057+0530 [initandlisten] waiting for connections on port 27019
+2014-05-24T14:51:59.064+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:51:59.065+0530 [rsStart] replSet info you may need to run replSetInitiate -- rs.initiate() in the shell -- if that is not already done
+2014-05-24T14:52:00.066+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:01.068+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:02.068+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:03.069+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:04.070+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:05.071+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:06.072+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:07.073+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:08.074+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:09.075+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:10.076+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:11.077+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:12.078+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:13.079+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:14.080+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:15.080+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:16.081+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:17.082+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:18.083+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:19.084+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:20.085+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:21.086+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:22.087+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:23.087+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:24.088+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:25.089+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:26.090+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:27.091+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:28.092+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:29.093+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:30.094+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:31.095+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:32.096+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:33.097+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:34.097+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:35.098+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:36.099+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:37.100+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:38.101+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:39.102+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:40.102+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:41.103+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:42.104+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:43.105+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:44.106+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:45.107+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:46.109+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:47.110+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:48.111+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:49.112+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:50.112+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:51.114+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:52.114+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:53.115+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:54.116+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:55.117+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:56.118+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:57.119+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:58.120+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:52:58.920+0530 [clientcursormon] mem (MB) res:39 virt:241
+2014-05-24T14:52:58.920+0530 [clientcursormon]  mapped (incl journal view):64
+2014-05-24T14:52:58.920+0530 [clientcursormon]  connections:0
+2014-05-24T14:52:59.121+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:00.326+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:01.326+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:02.327+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:03.328+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:04.329+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:05.330+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:06.331+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:07.332+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:08.333+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:09.334+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:10.335+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:11.336+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:12.337+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:13.338+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:14.339+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:15.340+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:16.341+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:17.342+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:18.343+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:19.343+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:20.344+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:21.345+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:22.347+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:23.348+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:24.349+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:25.349+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:26.350+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:27.351+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:28.352+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:29.353+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:30.353+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:31.355+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:32.356+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:33.357+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:34.358+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:35.358+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:36.359+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:37.361+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:38.361+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:39.362+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:40.363+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:41.364+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:42.365+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:43.366+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:44.367+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:45.368+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:46.369+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:47.370+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:48.371+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:49.372+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:50.373+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:51.373+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:52.374+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:53.375+0530 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-05-24T14:53:53.719+0530 [initandlisten] connection accepted from 127.0.0.1:50807 #1 (1 connection now open)
+2014-05-24T14:53:54.376+0530 [rsStart] trying to contact localhost:27017
+2014-05-24T14:53:54.382+0530 [initandlisten] connection accepted from 127.0.0.1:50811 #2 (2 connections now open)
+2014-05-24T14:53:54.383+0530 [rsStart] replSet I am localhost:27019
+2014-05-24T14:53:54.383+0530 [conn2] end connection 127.0.0.1:50811 (1 connection now open)
+2014-05-24T14:53:54.384+0530 [rsStart] replSet got config version 1 from a remote, saving locally
+2014-05-24T14:53:54.384+0530 [rsStart] replSet info saving a newer config version to local.system.replset: { _id: "m101", version: 1, members: [ { _id: 0, host: "localhost:27017" }, { _id: 1, host: "localhost:27018" }, { _id: 2, host: "localhost:27019" } ] }
+2014-05-24T14:53:54.399+0530 [rsStart] build index on: local.system.replset properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.system.replset" }
+2014-05-24T14:53:54.399+0530 [rsStart] 	 added index to empty collection
+2014-05-24T14:53:54.399+0530 [rsStart] replSet saveConfigLocally done
+2014-05-24T14:53:54.416+0530 [rsStart] build index on: local.me properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.me" }
+2014-05-24T14:53:54.416+0530 [rsStart] 	 added index to empty collection
+2014-05-24T14:53:54.416+0530 [rsStart] replSet STARTUP2
+2014-05-24T14:53:54.424+0530 [rsSync] ******
+2014-05-24T14:53:54.424+0530 [rsSync] creating replication oplog of size: 64MB...
+2014-05-24T14:53:54.425+0530 [FileAllocator] allocating new datafile \data\rs3\local.1, filling with zeroes...
+2014-05-24T14:53:54.504+0530 [FileAllocator] done allocating datafile \data\rs3\local.1, size: 128MB,  took 0.066 secs
+2014-05-24T14:53:54.525+0530 [rsSync] ******
+2014-05-24T14:53:54.526+0530 [rsSync] replSet initial sync pending
+2014-05-24T14:53:54.526+0530 [rsSync] replSet initial sync need a member to be primary or secondary to do our initial sync
+2014-05-24T14:53:56.326+0530 [initandlisten] connection accepted from 127.0.0.1:50812 #3 (2 connections now open)
+2014-05-24T14:53:56.388+0530 [rsHealthPoll] replSet member localhost:27017 is up
+2014-05-24T14:53:56.388+0530 [rsHealthPoll] replSet member localhost:27017 is now in state SECONDARY
+2014-05-24T14:53:56.389+0530 [rsHealthPoll] replSet member localhost:27018 is up
+2014-05-24T14:53:56.389+0530 [rsHealthPoll] replSet member localhost:27018 is now in state STARTUP2
+2014-05-24T14:53:58.929+0530 [clientcursormon] mem (MB) res:39 virt:508
+2014-05-24T14:53:58.929+0530 [clientcursormon]  mapped (incl journal view):320
+2014-05-24T14:53:58.929+0530 [clientcursormon]  connections:2
+2014-05-24T14:53:58.929+0530 [clientcursormon]  replication threads:32
+2014-05-24T14:54:02.232+0530 [conn1] replSet info voting yea for localhost:27017 (0)
+2014-05-24T14:54:02.392+0530 [rsHealthPoll] replSet member localhost:27017 is now in state PRIMARY
+2014-05-24T14:54:10.528+0530 [rsSync] replSet initial sync pending
+2014-05-24T14:54:10.528+0530 [rsSync] replSet syncing to: localhost:27017
+2014-05-24T14:54:10.542+0530 [rsSync] build index on: local.replset.minvalid properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.replset.minvalid" }
+2014-05-24T14:54:10.542+0530 [rsSync] 	 added index to empty collection
+2014-05-24T14:54:10.542+0530 [rsSync] replSet initial sync drop all databases
+2014-05-24T14:54:10.545+0530 [rsSync] dropAllDatabasesExceptLocal 1
+2014-05-24T14:54:10.546+0530 [rsSync] replSet initial sync clone all databases
+2014-05-24T14:54:10.547+0530 [rsSync] replSet initial sync cloning db: admin
+2014-05-24T14:54:10.549+0530 [rsSync] replSet initial sync data copy, starting syncup
+2014-05-24T14:54:10.551+0530 [rsSync] oplog sync 1 of 3
+2014-05-24T14:54:10.555+0530 [rsSync] oplog sync 2 of 3
+2014-05-24T14:54:10.555+0530 [rsSync] replSet initial sync building indexes
+2014-05-24T14:54:10.555+0530 [rsSync] replSet initial sync cloning indexes for : admin
+2014-05-24T14:54:10.555+0530 [rsSync] oplog sync 3 of 3
+2014-05-24T14:54:10.556+0530 [rsSync] replSet initial sync finishing up
+2014-05-24T14:54:11.329+0530 [rsSync] replSet set minValid=53806529:1
+2014-05-24T14:54:11.334+0530 [rsSync] replSet RECOVERING
+2014-05-24T14:54:11.334+0530 [rsSync] replSet initial sync done
+2014-05-24T14:54:11.429+0530 [rsBackgroundSync] replSet syncing to: localhost:27017
+2014-05-24T14:54:11.431+0530 [rsBackgroundSync] replset setting syncSourceFeedback to localhost:27017
+2014-05-24T14:54:12.335+0530 [rsSync] replSet SECONDARY
+2014-05-24T14:54:12.398+0530 [rsHealthPoll] replSet member localhost:27018 is now in state SECONDARY
+2014-05-24T14:54:22.242+0530 [conn1] end connection 127.0.0.1:50807 (1 connection now open)
+2014-05-24T14:54:22.242+0530 [initandlisten] connection accepted from 127.0.0.1:50832 #4 (2 connections now open)
+2014-05-24T14:54:24.341+0530 [conn3] end connection 127.0.0.1:50812 (1 connection now open)
+2014-05-24T14:54:24.342+0530 [initandlisten] connection accepted from 127.0.0.1:50833 #5 (2 connections now open)
+2014-05-24T14:54:52.257+0530 [conn4] end connection 127.0.0.1:50832 (1 connection now open)
+2014-05-24T14:54:52.259+0530 [initandlisten] connection accepted from 127.0.0.1:50844 #6 (2 connections now open)
+2014-05-24T14:54:54.356+0530 [conn5] end connection 127.0.0.1:50833 (1 connection now open)
+2014-05-24T14:54:54.357+0530 [initandlisten] connection accepted from 127.0.0.1:50845 #7 (2 connections now open)
+2014-05-24T14:55:13.671+0530 [initandlisten] connection accepted from 127.0.0.1:50855 #8 (3 connections now open)
+2014-05-24T14:55:13.682+0530 [conn8] end connection 127.0.0.1:50855 (2 connections now open)
+2014-05-24T14:55:22.275+0530 [conn6] end connection 127.0.0.1:50844 (1 connection now open)
+2014-05-24T14:55:22.277+0530 [initandlisten] connection accepted from 127.0.0.1:50859 #9 (2 connections now open)
+2014-05-24T14:55:24.371+0530 [conn7] end connection 127.0.0.1:50845 (1 connection now open)
+2014-05-24T14:55:24.372+0530 [initandlisten] connection accepted from 127.0.0.1:50860 #10 (2 connections now open)
+2014-05-24T14:55:52.291+0530 [conn9] end connection 127.0.0.1:50859 (1 connection now open)
+2014-05-24T14:55:52.292+0530 [initandlisten] connection accepted from 127.0.0.1:50874 #11 (2 connections now open)
+2014-05-24T14:55:54.387+0530 [conn10] end connection 127.0.0.1:50860 (1 connection now open)
+2014-05-24T14:55:54.388+0530 [initandlisten] connection accepted from 127.0.0.1:50875 #12 (2 connections now open)
+2014-05-24T14:56:22.308+0530 [conn11] end connection 127.0.0.1:50874 (1 connection now open)
+2014-05-24T14:56:22.309+0530 [initandlisten] connection accepted from 127.0.0.1:50891 #13 (2 connections now open)
+2014-05-24T14:56:24.403+0530 [conn12] end connection 127.0.0.1:50875 (1 connection now open)
+2014-05-24T14:56:24.405+0530 [initandlisten] connection accepted from 127.0.0.1:50910 #14 (2 connections now open)
+2014-05-24T14:56:52.323+0530 [conn13] end connection 127.0.0.1:50891 (1 connection now open)
+2014-05-24T14:56:52.324+0530 [initandlisten] connection accepted from 127.0.0.1:50939 #15 (2 connections now open)
+2014-05-24T14:56:54.421+0530 [conn14] end connection 127.0.0.1:50910 (1 connection now open)
+2014-05-24T14:56:54.422+0530 [initandlisten] connection accepted from 127.0.0.1:50940 #16 (2 connections now open)
+2014-05-24T14:57:22.340+0530 [conn15] end connection 127.0.0.1:50939 (1 connection now open)
+2014-05-24T14:57:22.341+0530 [initandlisten] connection accepted from 127.0.0.1:50951 #17 (2 connections now open)
+2014-05-24T14:57:24.437+0530 [conn16] end connection 127.0.0.1:50940 (1 connection now open)
+2014-05-24T14:57:24.438+0530 [initandlisten] connection accepted from 127.0.0.1:50952 #18 (2 connections now open)
+2014-05-24T14:57:52.356+0530 [conn17] end connection 127.0.0.1:50951 (1 connection now open)
+2014-05-24T14:57:52.358+0530 [initandlisten] connection accepted from 127.0.0.1:50968 #19 (2 connections now open)
+2014-05-24T14:57:54.452+0530 [conn18] end connection 127.0.0.1:50952 (1 connection now open)
+2014-05-24T14:57:54.454+0530 [initandlisten] connection accepted from 127.0.0.1:50979 #20 (2 connections now open)
+2014-05-24T14:58:22.375+0530 [conn19] end connection 127.0.0.1:50968 (1 connection now open)
+2014-05-24T14:58:22.376+0530 [initandlisten] connection accepted from 127.0.0.1:50996 #21 (2 connections now open)
+2014-05-24T14:58:24.471+0530 [conn20] end connection 127.0.0.1:50979 (1 connection now open)
+2014-05-24T14:58:24.472+0530 [initandlisten] connection accepted from 127.0.0.1:50997 #22 (2 connections now open)
+2014-05-24T14:58:52.392+0530 [conn21] end connection 127.0.0.1:50996 (1 connection now open)
+2014-05-24T14:58:52.393+0530 [initandlisten] connection accepted from 127.0.0.1:51008 #23 (2 connections now open)
+2014-05-24T14:58:54.487+0530 [conn22] end connection 127.0.0.1:50997 (1 connection now open)
+2014-05-24T14:58:54.489+0530 [initandlisten] connection accepted from 127.0.0.1:51009 #24 (2 connections now open)
+2014-05-24T14:58:59.381+0530 [clientcursormon] mem (MB) res:41 virt:508
+2014-05-24T14:58:59.381+0530 [clientcursormon]  mapped (incl journal view):320
+2014-05-24T14:58:59.381+0530 [clientcursormon]  connections:2
+2014-05-24T14:58:59.381+0530 [clientcursormon]  replication threads:32
+2014-05-24T14:59:22.410+0530 [conn23] end connection 127.0.0.1:51008 (1 connection now open)
+2014-05-24T14:59:22.413+0530 [initandlisten] connection accepted from 127.0.0.1:51020 #25 (2 connections now open)
+2014-05-24T14:59:24.508+0530 [conn24] end connection 127.0.0.1:51009 (1 connection now open)
+2014-05-24T14:59:24.509+0530 [initandlisten] connection accepted from 127.0.0.1:51021 #26 (2 connections now open)
+2014-05-24T14:59:52.427+0530 [conn25] end connection 127.0.0.1:51020 (1 connection now open)
+2014-05-24T14:59:52.429+0530 [initandlisten] connection accepted from 127.0.0.1:51034 #27 (2 connections now open)
+2014-05-24T14:59:54.525+0530 [conn26] end connection 127.0.0.1:51021 (1 connection now open)
+2014-05-24T14:59:54.526+0530 [initandlisten] connection accepted from 127.0.0.1:51035 #28 (2 connections now open)
+2014-05-24T15:00:22.446+0530 [conn27] end connection 127.0.0.1:51034 (1 connection now open)
+2014-05-24T15:00:22.447+0530 [initandlisten] connection accepted from 127.0.0.1:51046 #29 (2 connections now open)
+2014-05-24T15:00:24.542+0530 [conn28] end connection 127.0.0.1:51035 (1 connection now open)
+2014-05-24T15:00:24.543+0530 [initandlisten] connection accepted from 127.0.0.1:51047 #30 (2 connections now open)
+2014-05-24T15:00:52.461+0530 [conn29] end connection 127.0.0.1:51046 (1 connection now open)
+2014-05-24T15:00:52.463+0530 [initandlisten] connection accepted from 127.0.0.1:51058 #31 (2 connections now open)
+2014-05-24T15:00:54.557+0530 [conn30] end connection 127.0.0.1:51047 (1 connection now open)
+2014-05-24T15:00:54.559+0530 [initandlisten] connection accepted from 127.0.0.1:51059 #32 (2 connections now open)
+2014-05-24T15:01:22.479+0530 [conn31] end connection 127.0.0.1:51058 (1 connection now open)
+2014-05-24T15:01:22.480+0530 [initandlisten] connection accepted from 127.0.0.1:51070 #33 (2 connections now open)
+2014-05-24T15:01:24.572+0530 [conn32] end connection 127.0.0.1:51059 (1 connection now open)
+2014-05-24T15:01:24.573+0530 [initandlisten] connection accepted from 127.0.0.1:51071 #34 (2 connections now open)
+2014-05-24T15:01:52.494+0530 [conn33] end connection 127.0.0.1:51070 (1 connection now open)
+2014-05-24T15:01:52.495+0530 [initandlisten] connection accepted from 127.0.0.1:51084 #35 (2 connections now open)
+2014-05-24T15:01:54.586+0530 [conn34] end connection 127.0.0.1:51071 (1 connection now open)
+2014-05-24T15:01:54.587+0530 [initandlisten] connection accepted from 127.0.0.1:51085 #36 (2 connections now open)
+2014-05-24T15:02:22.512+0530 [conn35] end connection 127.0.0.1:51084 (1 connection now open)
+2014-05-24T15:02:22.515+0530 [initandlisten] connection accepted from 127.0.0.1:51096 #37 (2 connections now open)
+2014-05-24T15:02:24.605+0530 [conn36] end connection 127.0.0.1:51085 (1 connection now open)
+2014-05-24T15:02:24.607+0530 [initandlisten] connection accepted from 127.0.0.1:51098 #38 (2 connections now open)
+2014-05-24T15:02:52.530+0530 [conn37] end connection 127.0.0.1:51096 (1 connection now open)
+2014-05-24T15:02:52.531+0530 [initandlisten] connection accepted from 127.0.0.1:51109 #39 (2 connections now open)
+2014-05-24T15:02:54.621+0530 [conn38] end connection 127.0.0.1:51098 (1 connection now open)
+2014-05-24T15:02:54.622+0530 [initandlisten] connection accepted from 127.0.0.1:51110 #40 (2 connections now open)
+2014-05-24T15:03:22.544+0530 [conn39] end connection 127.0.0.1:51109 (1 connection now open)
+2014-05-24T15:03:22.545+0530 [initandlisten] connection accepted from 127.0.0.1:51121 #41 (2 connections now open)
+2014-05-24T15:03:24.636+0530 [conn40] end connection 127.0.0.1:51110 (1 connection now open)
+2014-05-24T15:03:24.637+0530 [initandlisten] connection accepted from 127.0.0.1:51122 #42 (2 connections now open)
+2014-05-24T15:03:52.564+0530 [conn41] end connection 127.0.0.1:51121 (1 connection now open)
+2014-05-24T15:03:52.568+0530 [initandlisten] connection accepted from 127.0.0.1:51133 #43 (2 connections now open)
+2014-05-24T15:03:54.654+0530 [conn42] end connection 127.0.0.1:51122 (1 connection now open)
+2014-05-24T15:03:54.657+0530 [initandlisten] connection accepted from 127.0.0.1:51135 #44 (2 connections now open)
+2014-05-24T15:03:59.423+0530 [clientcursormon] mem (MB) res:41 virt:508
+2014-05-24T15:03:59.423+0530 [clientcursormon]  mapped (incl journal view):320
+2014-05-24T15:03:59.423+0530 [clientcursormon]  connections:2
+2014-05-24T15:03:59.423+0530 [clientcursormon]  replication threads:32
+2014-05-24T15:04:22.583+0530 [conn43] end connection 127.0.0.1:51133 (1 connection now open)
+2014-05-24T15:04:22.586+0530 [initandlisten] connection accepted from 127.0.0.1:51146 #45 (2 connections now open)
+2014-05-24T15:04:24.672+0530 [conn44] end connection 127.0.0.1:51135 (1 connection now open)
+2014-05-24T15:04:24.673+0530 [initandlisten] connection accepted from 127.0.0.1:51147 #46 (2 connections now open)
+2014-05-24T15:04:52.601+0530 [conn45] end connection 127.0.0.1:51146 (1 connection now open)
+2014-05-24T15:04:52.602+0530 [initandlisten] connection accepted from 127.0.0.1:51158 #47 (2 connections now open)
+2014-05-24T15:04:54.689+0530 [conn46] end connection 127.0.0.1:51147 (1 connection now open)
+2014-05-24T15:04:54.690+0530 [initandlisten] connection accepted from 127.0.0.1:51159 #48 (2 connections now open)
+2014-05-24T15:05:22.616+0530 [conn47] end connection 127.0.0.1:51158 (1 connection now open)
+2014-05-24T15:05:22.618+0530 [initandlisten] connection accepted from 127.0.0.1:51170 #49 (2 connections now open)
+2014-05-24T15:05:24.706+0530 [conn48] end connection 127.0.0.1:51159 (1 connection now open)
+2014-05-24T15:05:24.708+0530 [initandlisten] connection accepted from 127.0.0.1:51171 #50 (2 connections now open)
+2014-05-24T15:05:52.634+0530 [conn49] end connection 127.0.0.1:51170 (1 connection now open)
+2014-05-24T15:05:52.635+0530 [initandlisten] connection accepted from 127.0.0.1:51182 #51 (2 connections now open)
+2014-05-24T15:05:54.723+0530 [conn50] end connection 127.0.0.1:51171 (1 connection now open)
+2014-05-24T15:05:54.724+0530 [initandlisten] connection accepted from 127.0.0.1:51183 #52 (2 connections now open)
+2014-05-24T15:06:22.649+0530 [conn51] end connection 127.0.0.1:51182 (1 connection now open)
+2014-05-24T15:06:22.650+0530 [initandlisten] connection accepted from 127.0.0.1:51197 #53 (2 connections now open)
+2014-05-24T15:06:24.738+0530 [conn52] end connection 127.0.0.1:51183 (1 connection now open)
+2014-05-24T15:06:24.739+0530 [initandlisten] connection accepted from 127.0.0.1:51198 #54 (2 connections now open)
+2014-05-24T15:06:52.665+0530 [conn53] end connection 127.0.0.1:51197 (1 connection now open)
+2014-05-24T15:06:52.666+0530 [initandlisten] connection accepted from 127.0.0.1:51212 #55 (2 connections now open)
+2014-05-24T15:06:54.754+0530 [conn54] end connection 127.0.0.1:51198 (1 connection now open)
+2014-05-24T15:06:54.754+0530 [initandlisten] connection accepted from 127.0.0.1:51213 #56 (2 connections now open)
+2014-05-24T15:07:22.682+0530 [conn55] end connection 127.0.0.1:51212 (1 connection now open)
+2014-05-24T15:07:22.683+0530 [initandlisten] connection accepted from 127.0.0.1:51224 #57 (2 connections now open)
+2014-05-24T15:07:24.772+0530 [conn56] end connection 127.0.0.1:51213 (1 connection now open)
+2014-05-24T15:07:24.774+0530 [initandlisten] connection accepted from 127.0.0.1:51225 #58 (2 connections now open)
+2014-05-24T15:07:52.698+0530 [conn57] end connection 127.0.0.1:51224 (1 connection now open)
+2014-05-24T15:07:52.700+0530 [initandlisten] connection accepted from 127.0.0.1:51239 #59 (2 connections now open)
+2014-05-24T15:07:54.789+0530 [conn58] end connection 127.0.0.1:51225 (1 connection now open)
+2014-05-24T15:07:54.790+0530 [initandlisten] connection accepted from 127.0.0.1:51240 #60 (2 connections now open)
+2014-05-24T15:08:22.715+0530 [conn59] end connection 127.0.0.1:51239 (1 connection now open)
+2014-05-24T15:08:22.716+0530 [initandlisten] connection accepted from 127.0.0.1:51254 #61 (2 connections now open)
+2014-05-24T15:08:24.805+0530 [conn60] end connection 127.0.0.1:51240 (1 connection now open)
+2014-05-24T15:08:24.806+0530 [initandlisten] connection accepted from 127.0.0.1:51255 #62 (2 connections now open)
+2014-05-24T15:08:52.731+0530 [conn61] end connection 127.0.0.1:51254 (1 connection now open)
+2014-05-24T15:08:52.733+0530 [initandlisten] connection accepted from 127.0.0.1:51285 #63 (2 connections now open)
+2014-05-24T15:08:54.818+0530 [conn62] end connection 127.0.0.1:51255 (1 connection now open)
+2014-05-24T15:08:54.819+0530 [initandlisten] connection accepted from 127.0.0.1:51286 #64 (2 connections now open)
+2014-05-24T15:08:59.471+0530 [clientcursormon] mem (MB) res:41 virt:508
+2014-05-24T15:08:59.471+0530 [clientcursormon]  mapped (incl journal view):320
+2014-05-24T15:08:59.471+0530 [clientcursormon]  connections:2
+2014-05-24T15:08:59.471+0530 [clientcursormon]  replication threads:32
+2014-05-24T15:09:22.750+0530 [conn63] end connection 127.0.0.1:51285 (1 connection now open)
+2014-05-24T15:09:22.751+0530 [initandlisten] connection accepted from 127.0.0.1:51299 #65 (2 connections now open)
+2014-05-24T15:09:24.836+0530 [conn64] end connection 127.0.0.1:51286 (1 connection now open)
+2014-05-24T15:09:24.837+0530 [initandlisten] connection accepted from 127.0.0.1:51300 #66 (2 connections now open)
+2014-05-24T15:09:52.767+0530 [conn65] end connection 127.0.0.1:51299 (1 connection now open)
+2014-05-24T15:09:52.769+0530 [initandlisten] connection accepted from 127.0.0.1:51312 #67 (2 connections now open)
+2014-05-24T15:09:54.854+0530 [conn66] end connection 127.0.0.1:51300 (1 connection now open)
+2014-05-24T15:09:54.856+0530 [initandlisten] connection accepted from 127.0.0.1:51313 #68 (2 connections now open)
+2014-05-24T15:10:22.785+0530 [conn67] end connection 127.0.0.1:51312 (1 connection now open)
+2014-05-24T15:10:22.786+0530 [initandlisten] connection accepted from 127.0.0.1:51326 #69 (2 connections now open)
+2014-05-24T15:10:24.871+0530 [conn68] end connection 127.0.0.1:51313 (1 connection now open)
+2014-05-24T15:10:24.873+0530 [initandlisten] connection accepted from 127.0.0.1:51327 #70 (2 connections now open)
+2014-05-24T15:10:52.802+0530 [conn69] end connection 127.0.0.1:51326 (1 connection now open)
+2014-05-24T15:10:52.803+0530 [initandlisten] connection accepted from 127.0.0.1:51340 #71 (2 connections now open)
+2014-05-24T15:10:54.890+0530 [conn70] end connection 127.0.0.1:51327 (1 connection now open)
+2014-05-24T15:10:54.891+0530 [initandlisten] connection accepted from 127.0.0.1:51341 #72 (2 connections now open)
+2014-05-24T15:11:22.819+0530 [conn71] end connection 127.0.0.1:51340 (1 connection now open)
+2014-05-24T15:11:22.821+0530 [initandlisten] connection accepted from 127.0.0.1:51379 #73 (2 connections now open)
+2014-05-24T15:11:24.907+0530 [conn72] end connection 127.0.0.1:51341 (1 connection now open)
+2014-05-24T15:11:24.908+0530 [initandlisten] connection accepted from 127.0.0.1:51380 #74 (2 connections now open)
+2014-05-24T15:11:52.837+0530 [conn73] end connection 127.0.0.1:51379 (1 connection now open)
+2014-05-24T15:11:52.838+0530 [initandlisten] connection accepted from 127.0.0.1:51391 #75 (2 connections now open)
+2014-05-24T15:11:54.923+0530 [conn74] end connection 127.0.0.1:51380 (1 connection now open)
+2014-05-24T15:11:54.924+0530 [initandlisten] connection accepted from 127.0.0.1:51392 #76 (2 connections now open)
+2014-05-24T15:12:22.853+0530 [conn75] end connection 127.0.0.1:51391 (1 connection now open)
+2014-05-24T15:12:22.854+0530 [initandlisten] connection accepted from 127.0.0.1:51403 #77 (2 connections now open)
+2014-05-24T15:12:24.939+0530 [conn76] end connection 127.0.0.1:51392 (1 connection now open)
+2014-05-24T15:12:24.940+0530 [initandlisten] connection accepted from 127.0.0.1:51404 #78 (2 connections now open)
+2014-05-24T15:12:52.869+0530 [conn77] end connection 127.0.0.1:51403 (1 connection now open)
+2014-05-24T15:12:52.870+0530 [initandlisten] connection accepted from 127.0.0.1:51415 #79 (2 connections now open)
+2014-05-24T15:12:54.954+0530 [conn78] end connection 127.0.0.1:51404 (1 connection now open)
+2014-05-24T15:12:54.955+0530 [initandlisten] connection accepted from 127.0.0.1:51416 #80 (2 connections now open)
+2014-05-24T15:13:22.884+0530 [conn79] end connection 127.0.0.1:51415 (1 connection now open)
+2014-05-24T15:13:22.885+0530 [initandlisten] connection accepted from 127.0.0.1:51427 #81 (2 connections now open)
+2014-05-24T15:13:24.970+0530 [conn80] end connection 127.0.0.1:51416 (1 connection now open)
+2014-05-24T15:13:24.971+0530 [initandlisten] connection accepted from 127.0.0.1:51428 #82 (2 connections now open)
+2014-05-24T15:13:52.900+0530 [conn81] end connection 127.0.0.1:51427 (1 connection now open)
+2014-05-24T15:13:52.901+0530 [initandlisten] connection accepted from 127.0.0.1:51439 #83 (2 connections now open)
+2014-05-24T15:13:54.984+0530 [conn82] end connection 127.0.0.1:51428 (1 connection now open)
+2014-05-24T15:13:54.985+0530 [initandlisten] connection accepted from 127.0.0.1:51440 #84 (2 connections now open)
+2014-05-24T15:13:59.519+0530 [clientcursormon] mem (MB) res:41 virt:508
+2014-05-24T15:13:59.519+0530 [clientcursormon]  mapped (incl journal view):320
+2014-05-24T15:13:59.519+0530 [clientcursormon]  connections:2
+2014-05-24T15:13:59.519+0530 [clientcursormon]  replication threads:32
+2014-05-24T15:14:22.915+0530 [conn83] end connection 127.0.0.1:51439 (1 connection now open)
+2014-05-24T15:14:22.916+0530 [initandlisten] connection accepted from 127.0.0.1:51451 #85 (2 connections now open)
+2014-05-24T15:14:24.998+0530 [conn84] end connection 127.0.0.1:51440 (1 connection now open)
+2014-05-24T15:14:24.999+0530 [initandlisten] connection accepted from 127.0.0.1:51452 #86 (2 connections now open)
+2014-05-24T15:14:52.932+0530 [conn85] end connection 127.0.0.1:51451 (1 connection now open)
+2014-05-24T15:14:52.934+0530 [initandlisten] connection accepted from 127.0.0.1:51467 #87 (2 connections now open)
+2014-05-24T15:14:55.015+0530 [conn86] end connection 127.0.0.1:51452 (1 connection now open)
+2014-05-24T15:14:55.018+0530 [initandlisten] connection accepted from 127.0.0.1:51476 #88 (2 connections now open)
+2014-05-24T15:15:22.949+0530 [conn87] end connection 127.0.0.1:51467 (1 connection now open)
+2014-05-24T15:15:22.950+0530 [initandlisten] connection accepted from 127.0.0.1:51488 #89 (2 connections now open)
+2014-05-24T15:15:25.033+0530 [conn88] end connection 127.0.0.1:51476 (1 connection now open)
+2014-05-24T15:15:25.034+0530 [initandlisten] connection accepted from 127.0.0.1:51491 #90 (2 connections now open)
+2014-05-24T15:15:52.966+0530 [conn89] end connection 127.0.0.1:51488 (1 connection now open)
+2014-05-24T15:15:52.968+0530 [initandlisten] connection accepted from 127.0.0.1:51518 #91 (2 connections now open)
+2014-05-24T15:15:55.049+0530 [conn90] end connection 127.0.0.1:51491 (1 connection now open)
+2014-05-24T15:15:55.050+0530 [initandlisten] connection accepted from 127.0.0.1:51519 #92 (2 connections now open)
+2014-05-24T15:16:22.984+0530 [conn91] end connection 127.0.0.1:51518 (1 connection now open)
+2014-05-24T15:16:22.985+0530 [initandlisten] connection accepted from 127.0.0.1:51530 #93 (2 connections now open)
+2014-05-24T15:16:25.065+0530 [conn92] end connection 127.0.0.1:51519 (1 connection now open)
+2014-05-24T15:16:25.066+0530 [initandlisten] connection accepted from 127.0.0.1:51531 #94 (2 connections now open)
+2014-05-24T15:16:53.001+0530 [conn93] end connection 127.0.0.1:51530 (1 connection now open)
+2014-05-24T15:16:53.003+0530 [initandlisten] connection accepted from 127.0.0.1:51542 #95 (2 connections now open)
+2014-05-24T15:16:55.082+0530 [conn94] end connection 127.0.0.1:51531 (1 connection now open)
+2014-05-24T15:16:55.083+0530 [initandlisten] connection accepted from 127.0.0.1:51543 #96 (2 connections now open)
+2014-05-24T15:17:23.018+0530 [conn95] end connection 127.0.0.1:51542 (1 connection now open)
+2014-05-24T15:17:23.020+0530 [initandlisten] connection accepted from 127.0.0.1:51557 #97 (2 connections now open)
+2014-05-24T15:17:25.099+0530 [conn96] end connection 127.0.0.1:51543 (1 connection now open)
+2014-05-24T15:17:25.100+0530 [initandlisten] connection accepted from 127.0.0.1:51558 #98 (2 connections now open)
+2014-05-24T15:17:53.034+0530 [conn97] end connection 127.0.0.1:51557 (1 connection now open)
+2014-05-24T15:17:53.036+0530 [initandlisten] connection accepted from 127.0.0.1:51575 #99 (2 connections now open)
+2014-05-24T15:17:55.116+0530 [conn98] end connection 127.0.0.1:51558 (1 connection now open)
+2014-05-24T15:17:55.117+0530 [initandlisten] connection accepted from 127.0.0.1:51576 #100 (2 connections now open)
+2014-05-24T15:18:23.054+0530 [conn99] end connection 127.0.0.1:51575 (1 connection now open)
+2014-05-24T15:18:23.055+0530 [initandlisten] connection accepted from 127.0.0.1:51614 #101 (2 connections now open)
+2014-05-24T15:18:25.135+0530 [conn100] end connection 127.0.0.1:51576 (1 connection now open)
+2014-05-24T15:18:25.136+0530 [initandlisten] connection accepted from 127.0.0.1:51615 #102 (2 connections now open)
+2014-05-24T15:18:53.069+0530 [conn101] end connection 127.0.0.1:51614 (1 connection now open)
+2014-05-24T15:18:53.070+0530 [initandlisten] connection accepted from 127.0.0.1:51626 #103 (2 connections now open)
+2014-05-24T15:18:55.150+0530 [conn102] end connection 127.0.0.1:51615 (1 connection now open)
+2014-05-24T15:18:55.151+0530 [initandlisten] connection accepted from 127.0.0.1:51627 #104 (2 connections now open)
+2014-05-24T15:18:58.702+0530 [rsBackgroundSync] replSet sync source problem: 10278 dbclient error communicating with server: localhost:27017
+2014-05-24T15:18:58.702+0530 [rsBackgroundSync] replSet syncing to: localhost:27017
+2014-05-24T15:18:58.705+0530 [rsBackgroundSync] replset setting syncSourceFeedback to localhost:27017
+2014-05-24T15:18:59.196+0530 [rsHealthPoll] replSet member localhost:27017 is now in state SECONDARY
+2014-05-24T15:18:59.290+0530 [rsMgr] replSet info electSelf 2
+2014-05-24T15:18:59.565+0530 [clientcursormon] mem (MB) res:41 virt:508
+2014-05-24T15:18:59.565+0530 [clientcursormon]  mapped (incl journal view):320
+2014-05-24T15:18:59.565+0530 [clientcursormon]  connections:2
+2014-05-24T15:18:59.565+0530 [clientcursormon]  replication threads:32
+2014-05-24T15:19:03.733+0530 [rsMgr] replSet PRIMARY
+2014-05-24T15:19:05.438+0530 [initandlisten] connection accepted from 127.0.0.1:51636 #105 (3 connections now open)
+2014-05-24T15:19:05.440+0530 [initandlisten] connection accepted from 127.0.0.1:51637 #106 (4 connections now open)
+2014-05-24T15:19:23.085+0530 [conn103] end connection 127.0.0.1:51626 (3 connections now open)
+2014-05-24T15:19:23.086+0530 [initandlisten] connection accepted from 127.0.0.1:51645 #107 (4 connections now open)
+2014-05-24T15:19:25.165+0530 [conn104] end connection 127.0.0.1:51627 (3 connections now open)
+2014-05-24T15:19:25.166+0530 [initandlisten] connection accepted from 127.0.0.1:51646 #108 (4 connections now open)
+2014-05-24T15:19:53.101+0530 [conn107] end connection 127.0.0.1:51645 (3 connections now open)
+2014-05-24T15:19:53.102+0530 [initandlisten] connection accepted from 127.0.0.1:51657 #109 (4 connections now open)
+2014-05-24T15:19:55.182+0530 [conn108] end connection 127.0.0.1:51646 (3 connections now open)
+2014-05-24T15:19:55.183+0530 [initandlisten] connection accepted from 127.0.0.1:51658 #110 (4 connections now open)
+2014-05-24T15:20:23.117+0530 [conn109] end connection 127.0.0.1:51657 (3 connections now open)
+2014-05-24T15:20:23.118+0530 [initandlisten] connection accepted from 127.0.0.1:51669 #111 (4 connections now open)
+2014-05-24T15:20:25.198+0530 [conn110] end connection 127.0.0.1:51658 (3 connections now open)
+2014-05-24T15:20:25.199+0530 [initandlisten] connection accepted from 127.0.0.1:51670 #112 (4 connections now open)
+2014-05-24T15:20:53.132+0530 [conn111] end connection 127.0.0.1:51669 (3 connections now open)
+2014-05-24T15:20:53.133+0530 [initandlisten] connection accepted from 127.0.0.1:51682 #113 (4 connections now open)
+2014-05-24T15:20:55.215+0530 [conn112] end connection 127.0.0.1:51670 (3 connections now open)
+2014-05-24T15:20:55.215+0530 [initandlisten] connection accepted from 127.0.0.1:51683 #114 (4 connections now open)
+2014-05-24T15:21:04.973+0530 [initandlisten] connection accepted from 127.0.0.1:51688 #115 (5 connections now open)
+2014-05-24T15:21:23.146+0530 [conn113] end connection 127.0.0.1:51682 (4 connections now open)
+2014-05-24T15:21:23.147+0530 [initandlisten] connection accepted from 127.0.0.1:51696 #116 (5 connections now open)
+2014-05-24T15:21:25.229+0530 [conn114] end connection 127.0.0.1:51683 (4 connections now open)
+2014-05-24T15:21:25.230+0530 [initandlisten] connection accepted from 127.0.0.1:51697 #117 (5 connections now open)
+2014-05-24T15:21:27.491+0530 [conn115] localhost:27018 is now closest at 53806529:1
+2014-05-24T15:21:27.492+0530 [conn115] replSet info stepping down as primary secs=10
+2014-05-24T15:21:27.492+0530 [conn115] replSet relinquishing primary state
+2014-05-24T15:21:27.492+0530 [conn115] replSet SECONDARY
+2014-05-24T15:21:27.492+0530 [conn115] replSet closing client sockets after relinquishing primary
+2014-05-24T15:21:27.492+0530 [conn106] end connection 127.0.0.1:51637 (4 connections now open)
+2014-05-24T15:21:27.493+0530 [conn115] SocketException handling request, closing client connection: 9001 socket exception [SEND_ERROR] server [127.0.0.1:51688] 
+2014-05-24T15:21:27.495+0530 [initandlisten] connection accepted from 127.0.0.1:51699 #118 (4 connections now open)
+2014-05-24T15:21:27.497+0530 [initandlisten] connection accepted from 127.0.0.1:51700 #119 (5 connections now open)
+2014-05-24T15:21:27.503+0530 [initandlisten] connection accepted from 127.0.0.1:51701 #120 (6 connections now open)
+2014-05-24T15:21:29.329+0530 [conn117] replSet info voting yea for localhost:27018 (1)
+2014-05-24T15:21:31.060+0530 [conn105] SocketException handling request, closing client connection: 9001 socket exception [SEND_ERROR] server [127.0.0.1:51636] 
+2014-05-24T15:21:31.297+0530 [rsHealthPoll] replSet member localhost:27018 is now in state PRIMARY
+2014-05-24T15:21:31.842+0530 [rsBackgroundSync] replSet syncing to: localhost:27018
+2014-05-24T15:21:31.844+0530 [rsBackgroundSync] replset setting syncSourceFeedback to localhost:27018
+2014-05-24T15:21:51.981+0530 [conn120] end connection 127.0.0.1:51701 (4 connections now open)
+2014-05-24T15:21:53.162+0530 [conn116] end connection 127.0.0.1:51696 (3 connections now open)
+2014-05-24T15:21:53.164+0530 [initandlisten] connection accepted from 127.0.0.1:51713 #121 (4 connections now open)
+2014-05-24T15:21:55.247+0530 [conn117] end connection 127.0.0.1:51697 (3 connections now open)
+2014-05-24T15:21:55.248+0530 [initandlisten] connection accepted from 127.0.0.1:51714 #122 (4 connections now open)
+2014-05-24T15:22:23.178+0530 [conn121] end connection 127.0.0.1:51713 (3 connections now open)
+2014-05-24T15:22:23.180+0530 [initandlisten] connection accepted from 127.0.0.1:51738 #123 (4 connections now open)
+2014-05-24T15:22:25.263+0530 [conn122] end connection 127.0.0.1:51714 (3 connections now open)
+2014-05-24T15:22:25.265+0530 [initandlisten] connection accepted from 127.0.0.1:51740 #124 (4 connections now open)
+2014-05-24T15:22:53.195+0530 [conn123] end connection 127.0.0.1:51738 (3 connections now open)
+2014-05-24T15:22:53.198+0530 [initandlisten] connection accepted from 127.0.0.1:51756 #125 (4 connections now open)
+2014-05-24T15:22:55.282+0530 [conn124] end connection 127.0.0.1:51740 (3 connections now open)
+2014-05-24T15:22:55.284+0530 [initandlisten] connection accepted from 127.0.0.1:51759 #126 (4 connections now open)
+2014-05-24T15:23:23.215+0530 [conn125] end connection 127.0.0.1:51756 (3 connections now open)
+2014-05-24T15:23:23.218+0530 [initandlisten] connection accepted from 127.0.0.1:51788 #127 (4 connections now open)
+2014-05-24T15:23:25.299+0530 [conn126] end connection 127.0.0.1:51759 (3 connections now open)
+2014-05-24T15:23:25.300+0530 [initandlisten] connection accepted from 127.0.0.1:51789 #128 (4 connections now open)
+2014-05-24T15:23:53.232+0530 [conn127] end connection 127.0.0.1:51788 (3 connections now open)
+2014-05-24T15:23:53.233+0530 [initandlisten] connection accepted from 127.0.0.1:51800 #129 (4 connections now open)
+2014-05-24T15:23:55.314+0530 [conn128] end connection 127.0.0.1:51789 (3 connections now open)
+2014-05-24T15:23:55.315+0530 [initandlisten] connection accepted from 127.0.0.1:51801 #130 (4 connections now open)
+2014-05-24T15:23:59.608+0530 [clientcursormon] mem (MB) res:41 virt:510
+2014-05-24T15:23:59.608+0530 [clientcursormon]  mapped (incl journal view):320
+2014-05-24T15:23:59.608+0530 [clientcursormon]  connections:4
+2014-05-24T15:23:59.608+0530 [clientcursormon]  replication threads:32
+2014-05-24T15:24:23.249+0530 [conn129] end connection 127.0.0.1:51800 (3 connections now open)
+2014-05-24T15:24:23.250+0530 [initandlisten] connection accepted from 127.0.0.1:51812 #131 (4 connections now open)
+2014-05-24T15:24:25.331+0530 [conn130] end connection 127.0.0.1:51801 (3 connections now open)
+2014-05-24T15:24:25.332+0530 [initandlisten] connection accepted from 127.0.0.1:51813 #132 (4 connections now open)
+2014-05-24T15:24:53.264+0530 [conn131] end connection 127.0.0.1:51812 (3 connections now open)
+2014-05-24T15:24:53.266+0530 [initandlisten] connection accepted from 127.0.0.1:51828 #133 (4 connections now open)
+2014-05-24T15:24:55.346+0530 [conn132] end connection 127.0.0.1:51813 (3 connections now open)
+2014-05-24T15:24:55.348+0530 [initandlisten] connection accepted from 127.0.0.1:51829 #134 (4 connections now open)
+2014-05-24T15:25:23.283+0530 [conn133] end connection 127.0.0.1:51828 (3 connections now open)
+2014-05-24T15:25:23.284+0530 [initandlisten] connection accepted from 127.0.0.1:51840 #135 (4 connections now open)
+2014-05-24T15:25:25.365+0530 [conn134] end connection 127.0.0.1:51829 (3 connections now open)
+2014-05-24T15:25:25.365+0530 [initandlisten] connection accepted from 127.0.0.1:51841 #136 (4 connections now open)
+2014-05-24T15:25:53.299+0530 [conn135] end connection 127.0.0.1:51840 (3 connections now open)
+2014-05-24T15:25:53.300+0530 [initandlisten] connection accepted from 127.0.0.1:51852 #137 (4 connections now open)
+2014-05-24T15:25:55.381+0530 [conn136] end connection 127.0.0.1:51841 (3 connections now open)
+2014-05-24T15:25:55.382+0530 [initandlisten] connection accepted from 127.0.0.1:51853 #138 (4 connections now open)
+2014-05-24T15:26:23.313+0530 [conn137] end connection 127.0.0.1:51852 (3 connections now open)
+2014-05-24T15:26:23.314+0530 [initandlisten] connection accepted from 127.0.0.1:51864 #139 (4 connections now open)
+2014-05-24T15:26:25.395+0530 [conn138] end connection 127.0.0.1:51853 (3 connections now open)
+2014-05-24T15:26:25.396+0530 [initandlisten] connection accepted from 127.0.0.1:51887 #140 (4 connections now open)
+2014-05-24T15:26:53.329+0530 [conn139] end connection 127.0.0.1:51864 (3 connections now open)
+2014-05-24T15:26:53.330+0530 [initandlisten] connection accepted from 127.0.0.1:51987 #141 (4 connections now open)
+2014-05-24T15:26:55.412+0530 [conn140] end connection 127.0.0.1:51887 (3 connections now open)
+2014-05-24T15:26:55.413+0530 [initandlisten] connection accepted from 127.0.0.1:51988 #142 (4 connections now open)
+2014-05-24T15:27:23.345+0530 [conn141] end connection 127.0.0.1:51987 (3 connections now open)
+2014-05-24T15:27:23.346+0530 [initandlisten] connection accepted from 127.0.0.1:51999 #143 (4 connections now open)
+2014-05-24T15:27:25.428+0530 [conn142] end connection 127.0.0.1:51988 (3 connections now open)
+2014-05-24T15:27:25.430+0530 [initandlisten] connection accepted from 127.0.0.1:52000 #144 (4 connections now open)
+2014-05-24T15:27:40.005+0530 CTRL_CLOSE_EVENT signal
+2014-05-24T15:27:40.005+0530 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2014-05-24T15:27:40.006+0530 [consoleTerminate] now exiting
+2014-05-24T15:27:40.006+0530 [consoleTerminate] dbexit: 
+2014-05-24T15:27:40.006+0530 [consoleTerminate] shutdown: going to close listening sockets...
+2014-05-24T15:27:40.006+0530 [consoleTerminate] closing listening socket: 480
+2014-05-24T15:27:40.006+0530 [consoleTerminate] shutdown: going to flush diaglog...
+2014-05-24T15:27:40.006+0530 [consoleTerminate] shutdown: going to close sockets...
+2014-05-24T15:27:40.006+0530 [consoleTerminate] shutdown: waiting for fs preallocator...
+2014-05-24T15:27:40.006+0530 [consoleTerminate] shutdown: lock for final commit...
+2014-05-24T15:27:40.007+0530 [consoleTerminate] shutdown: final commit...
+2014-05-24T15:27:40.007+0530 [conn119] end connection 127.0.0.1:51700 (3 connections now open)
+2014-05-24T15:27:40.008+0530 [conn144] end connection 127.0.0.1:52000 (3 connections now open)
+2014-05-24T15:27:40.008+0530 [conn143] end connection 127.0.0.1:51999 (3 connections now open)
+2014-05-24T15:27:40.009+0530 [rsBackgroundSync] Socket recv() errno:10004 A blocking operation was interrupted by a call to WSACancelBlockingCall. 127.0.0.1:27018
+2014-05-24T15:27:40.009+0530 [rsBackgroundSync] SocketException: remote: 127.0.0.1:27018 error: 9001 socket exception [RECV_ERROR] server [127.0.0.1:27018] 
+2014-05-24T15:27:40.009+0530 [consoleTerminate] shutdown: closing all files...
+2014-05-24T15:27:40.009+0530 [rsBackgroundSync] replSet sync source problem: 10278 dbclient error communicating with server: localhost:27018
+2014-05-24T15:27:40.032+0530 [consoleTerminate] closeAllFiles() finished
+2014-05-24T15:27:40.032+0530 [consoleTerminate] journalCleanup...
+2014-05-24T15:27:40.035+0530 [consoleTerminate] removeJournalFiles
+2014-05-24T15:27:40.108+0530 [consoleTerminate] shutdown: removing fs lock...
+2014-05-24T15:27:40.109+0530 [consoleTerminate] dbexit: really exiting now

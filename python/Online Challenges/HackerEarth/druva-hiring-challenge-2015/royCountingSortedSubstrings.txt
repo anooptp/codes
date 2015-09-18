@@ -1,0 +1,11 @@
+5
+3
+abc
+3
+bba
+4
+abac
+3
+zyx
+5
+ccbaa

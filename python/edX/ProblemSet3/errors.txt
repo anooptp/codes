@@ -1,0 +1,216 @@
+INCORRECT Hide outputHide output
+
+
+Test: Initialization 1
+Initialize a SimpleVirus
+Output:
+Passed test
+
+
+Test: Initialization 2
+Initialize a Patient
+Output:
+Passed test
+
+
+Test: SimpleVirus 1
+Initialize a SimpleVirus that is never cleared and always reproduces
+Output:
+v1 = SimpleVirus(1.0, 0.0)
+Testing doesClear and reproduce methods
+v1.doesClear(): False
+v1.doesClear(): False
+v1.doesClear(): False
+v1.doesClear(): False
+v1.doesClear(): False
+v1.doesClear(): False
+v1.doesClear(): False
+v1.doesClear(): False
+v1.doesClear(): False
+v1.doesClear(): False
+Test completed.
+
+
+Test: SimpleVirus 2
+Initialize a SimpleVirus that is never cleared and never reproduces
+Your output:
+v1 = SimpleVirus(0.0, 0.0)
+Testing doesClear and reproduce methods
+v1.doesClear(): False
+Virus particle doesn't reproduce
+v1.doesClear(): False
+Virus particle doesn't reproduce
+v1.doesClear(): False
+Virus particle doesn't reproduce
+v1.doesClear(): False
+Virus particle doesn't reproduce
+v1.doesClear(): False
+Virus particle doesn't reproduce
+v1.doesClear(): False
+Virus particle doesn't reproduce
+v1.doesClear(): False
+Virus particle doesn't reproduce
+v1.doesClear(): False
+Virus particle doesn't reproduce
+v1.doesClear(): False
+Virus particle doesn't reproduce
+v1.doesClear(): False
+Virus particle doesn't reproduce
+Test completed.
+Correct output:
+v1 = SimpleVirus(0.0, 0.0)
+Testing doesClear and reproduce methods
+v1.doesClear(): False
+v1.doesClear(): False
+v1.doesClear(): False
+v1.doesClear(): False
+v1.doesClear(): False
+v1.doesClear(): False
+v1.doesClear(): False
+v1.doesClear(): False
+v1.doesClear(): False
+v1.doesClear(): False
+Test completed.
+Test: SimpleVirus 3
+Initialize a SimpleVirus that is always cleared and always reproduces
+Output:
+v1 = SimpleVirus(1.0, 1.0)
+Testing doesClear and reproduce methods
+v1.doesClear(): True
+v1.doesClear(): True
+v1.doesClear(): True
+v1.doesClear(): True
+v1.doesClear(): True
+v1.doesClear(): True
+v1.doesClear(): True
+v1.doesClear(): True
+v1.doesClear(): True
+v1.doesClear(): True
+Test completed.
+Test: SimpleVirus 4
+Initialize a SimpleVirus that is always cleared and never reproduces
+Your output:
+v1 = SimpleVirus(0.0, 1.0)
+Testing doesClear and reproduce methods
+v1.doesClear(): True
+Virus particle doesn't reproduce
+v1.doesClear(): True
+Virus particle doesn't reproduce
+v1.doesClear(): True
+Virus particle doesn't reproduce
+v1.doesClear(): True
+Virus particle doesn't reproduce
+v1.doesClear(): True
+Virus particle doesn't reproduce
+v1.doesClear(): True
+Virus particle doesn't reproduce
+v1.doesClear(): True
+Virus particle doesn't reproduce
+v1.doesClear(): True
+Virus particle doesn't reproduce
+v1.doesClear(): True
+Virus particle doesn't reproduce
+v1.doesClear(): True
+Virus particle doesn't reproduce
+Test completed.
+Correct output:
+v1 = SimpleVirus(0.0, 1.0)
+Testing doesClear and reproduce methods
+v1.doesClear(): True
+v1.doesClear(): True
+v1.doesClear(): True
+v1.doesClear(): True
+v1.doesClear(): True
+v1.doesClear(): True
+v1.doesClear(): True
+v1.doesClear(): True
+v1.doesClear(): True
+v1.doesClear(): True
+Test completed.
+Test: SimpleVirus 5
+Initialize a SimpleVirus with randomized probabilities
+Output:
+v1 = SimpleVirus(0.96, 0.28)
+Testing reproduce. Be sure your implementation is making EXACTLY ONE call to random.random(), and no other random module calls.
+popDensity = 0.04
+Reproduced successfully
+Reproduced successfully
+Reproduced successfully
+Reproduced successfully
+Reproduced successfully
+Reproduced successfully
+Reproduced successfully
+Reproduced successfully
+Reproduced successfully
+Reproduced successfully
+Test completed.
+
+
+Test: class Patient 1
+Initialize a Patient with randomized viruses
+Output:
+viruses = [ SimpleVirus(0.48, 0.9) SimpleVirus(0.4, 0.42) SimpleVirus(0.59, 0.52) SimpleVirus(0.94, 0.22) SimpleVirus(0.08, 0.44) SimpleVirus(0.42, 0.83) SimpleVirus(0.74, 0.72) ]
+P1 = Patient(viruses, 8)
+P1.getTotalPop() = 7
+
+
+Test: class Patient 2
+Create a Patient with virus that is never cleared and always reproduces
+Your output:
+virus = SimpleVirus(1.0, 0.0)
+patient = Patient([virus], 100)
+Updating the patient for 100 trials...
+patient.update implemented incorrectly
+patient.getTotalPop() expected to be >= 100; got 1
+Correct output:
+virus = SimpleVirus(1.0, 0.0)
+patient = Patient([virus], 100)
+Updating the patient for 100 trials...
+patient.getTotalPop() expected to be >= 100
+Test successfully completed
+Test: class Patient 3
+Create a Patient with virus that is always cleared and always reproduces
+Your output:
+virus = SimpleVirus(1.0, 1.0)
+patient = Patient([virus], 100)
+Updating the patient for 100 trials...
+patient.update implemented incorrectly
+patient.getTotalPop() expected to be 0; got 1
+Correct output:
+virus = SimpleVirus(1.0, 1.0)
+patient = Patient([virus], 100)
+Updating the patient for 100 trials...
+patient.getTotalPop() expected to = 0
+Test successfully completed
+Test: class Patient 4
+Initialize a Patient with randomized viruses
+Output:
+viruses = [ SimpleVirus(0.21, 0.82) SimpleVirus(0.21, 0.84) ]
+P1 = Patient(viruses, 6)
+P1.getTotalPop() = 2
+Updating patient 10 times... all exceptions should be handled...
+len(P1.viruses) < maxPop? True
+len(P1.viruses) < maxPop? True
+len(P1.viruses) < maxPop? True
+len(P1.viruses) < maxPop? True
+len(P1.viruses) < maxPop? True
+len(P1.viruses) < maxPop? True
+len(P1.viruses) < maxPop? True
+len(P1.viruses) < maxPop? True
+len(P1.viruses) < maxPop? True
+len(P1.viruses) < maxPop? True
+Test Completed
+
+Test: class Patient 5
+Check exception handling by raising different types of exceptions in SimpleVirus.reproduce
+Your output:
+Fail: Your Patient.update method caught an exception of type ValueError when it shouldn't have.
+You should never use bare `except` clauses in your code. Only catch raised NoChildExceptions.
+Correct output:
+Successfully ignored raised exception of type: ValueError
+Successfully ignored raised exception of type: ZeroDivisionError
+Successfully ignored raised exception of type: TypeError
+Successfully ignored raised exception of type: AttributeError
+Successfully ignored raised exception of type: NameError
+Successfully caught raised NoChildException
+Test Completed

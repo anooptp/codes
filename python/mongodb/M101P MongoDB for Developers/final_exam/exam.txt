@@ -1,0 +1,39 @@
+mongorestore -d enron -c messages messages.bson
+
+Which pair of people have the greatest number of messages in the dataset?
+susan.mara@enron.com to jeff.dasovich@enron.com
+susan.mara@enron.com to richard.shapiro@enron.com
+soblander@carrfut.com to soblander@carrfut.com
+susan.mara@enron.com to james.steffes@enron.com
+evelyn.metoyer@enron.com to kate.symes@enron.com
+susan.mara@enron.com to alan.comnes@enron.com
+
+> db.messages.aggregate([{$project : {'from':"$headers.From", to : "$headers.To"} }, {$unwind : "$to"}, {$match : {from : "susan.mara@enron.com", to:"jeff.dasovich@enron.com" }}, {$group : {_id : {id:"$_id", from:"$from", to:"$to"}}}, {$group : {_id:'total', 'total': {$sum:1}}}])
+{ "_id" : "total", "total" : 750 }
+
+db.messages.aggregate([{$project : {'from':"$headers.From", to : "$headers.To"} }, {$unwind : "$to"}, {$match : {from : "susan.mara@enron.com", to:"richard.shapiro@enron.com" }}, {$group : {_id : {id:"$_id", from:"$from", to:"$to"}}}, {$group : {_id:'total', 'total': {$sum:1}}}])
+{ "_id" : "total", "total" : 616 }
+
+db.messages.aggregate([{$project : {'from':"$headers.From", to : "$headers.To"} }, {$unwind : "$to"}, {$match : {from : "soblander@carrfut.com", to:"soblander@carrfut.com" }}, {$group : {_id : {id:"$_id", from:"$from", to:"$to"}}}, {$group : {_id:'total', 'total': {$sum:1}}}])
+{ "_id" : "total", "total" : 679 }
+
+db.messages.aggregate([{$project : {'from':"$headers.From", to : "$headers.To"} }, {$unwind : "$to"}, {$match : {from : "susan.mara@enron.com", to:"james.steffes@enron.com" }}, {$group : {_id : {id:"$_id", from:"$from", to:"$to"}}}, {$group : {_id:'total', 'total': {$sum:1}}}])
+{ "_id" : "total", "total" : 646 }
+
+db.messages.aggregate([{$project : {'from':"$headers.From", to : "$headers.To"} }, {$unwind : "$to"}, {$match : {from : "evelyn.metoyer@enron.com", to:"kate.symes@enron.com" }}, {$group : {_id : {id:"$_id", from:"$from", to:"$to"}}}, {$group : {_id:'total', 'total': {$sum:1}}}])
+{ "_id" : "total", "total" : 567 }
+
+db.messages.aggregate([{$project : {'from':"$headers.From", to : "$headers.To"} }, {$unwind : "$to"}, {$match : {from : "susan.mara@enron.com", to:"alan.comnes@enron.com" }}, {$group : {_id : {id:"$_id", from:"$from", to:"$to"}}}, {$group : {_id:'total', 'total': {$sum:1}}}])
+{ "_id" : "total", "total" : 550 }
+
+***********************************
+
+
+Please add the email address "mrpotatohead@10gen.com" to the list of addresses in the "headers.To" array for the document with "headers.Message-ID" of "<8147308.1075851042335.JavaMail.evans@thyme>"
+
+db.messages.find({"headers.Message-ID" : "<8147308.1075851042335.JavaMail.evans@thyme>"})
+
+db.messages.update({"headers.Message-ID" : "<8147308.1075851042335.JavaMail.evans@thyme>"}, {$push : {"headers.To" : "mrpotatohead@10gen.com"}})
+
+***********************************
+
