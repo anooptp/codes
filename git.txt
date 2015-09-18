@@ -1,0 +1,62 @@
+E:\codes\python\Coursera\An Introduction to Interactive Programming in Python [master]> history
+
+  Id CommandLine
+  -- -----------
+   1 cd E:\codes\python\Coursera\An Introduction to Interactive Programming in Python
+   2 cd 'E:\codes\python\Coursera\An Introduction to Interactive Programming in Python'
+   3 ls
+   4 git init
+   5 git status
+   6 git log
+   7 git status
+   8 cd ..
+   9 git status
+  10 cd 'E:\codes\python\Coursera\An Introduction to Interactive Programming in Python'
+  11 git status
+  12 git add '*'
+  13 git status
+  14 git commit -m 'Introduction to Interactive Python homework files: Coursera'
+  15 git status
+  16 git config --global user.name "anooptp"
+  17 git config --global user.email "anooptp6490@gmail.com"
+  18 git commit -m 'Introduction to Interactive Python homework files: Coursera'
+  19 git status
+  20 git remote add origin https://github.com/anooptp/coursera_intro_to_interactive_python.git
+  21 rm -rf coursera_intro_to_interactive_python.git
+  22 git remote add origin https://github.com/anooptp/coursera_intro_to_interactive_python.git
+  23 git remote add org https://github.com/anooptp/coursera_intro_to_interactive_python.git
+  24 git push -u org master
+  25 git push -u org master
+  26 git status
+  27 git push -u org master
+  28 git pull
+  29 git pull --help
+  30 git pull 'https://github.com/anooptp/coursera_intro_to_interactive_python.git'
+  31 git status
+  32 git push -u org master
+  33 git status
+  34 git status
+  35 git commit -m 'Introduction to Interactive Python homework files: Coursera'
+  36 git commit -m 'Introduction to Interactive Python homework files updated: Coursera'
+  37 git add '*'
+  38 git status
+  39 git add -all '*'
+  40 git add --all '*'
+  41 git status
+  42 git push -u org master
+  43 git status
+  44 git remote add org https://github.com/anooptp/coursera_intro_to_interactive_python.git
+  45 git reset HEAD '*'
+  46 git status
+  47 git add '*'
+  48 git add --all '*'
+  49 git status
+  50 git push -u org master
+  51 git push org master
+  52 git commit -m 'Introduction to Interactive Python homework files updated: Coursera'
+  53 git push -u org master
+  54 hgit log
+  55 hgit -log
+  56 git log
+  57 git pull 'https://github.com/anooptp/coursera_intro_to_interactive_python.git'
+  58 git log

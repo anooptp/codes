@@ -1,0 +1,7 @@
+git clone https://github.com/anooptp/reflections.git
+
+git clone https://github.com/anooptp/recipes.git
+
+bash sarah_changes.sh https://github.com/anooptp/recipes.git
+
+bash sarah_changes_2.sh https://github.com/anooptp/recipes.git
